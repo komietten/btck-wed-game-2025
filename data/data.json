@@ -1,0 +1,47 @@
+{
+    "hot_games": [
+        {
+            "id": 1, 
+            "name": "Zombie war",
+            "image_url":"https://th.bing.com/th/id/OIP.5fWPU4gIvjh4DwLwIFw6igAAAA?rs=1&pid=ImgDetMain", 
+            "category": "hot_games"
+        },
+        {
+            "id": 2, 
+            "name": "Zombie war",
+            "image_url":"https://th.bing.com/th/id/OIP.5fWPU4gIvjh4DwLwIFw6igAAAA?rs=1&pid=ImgDetMain", 
+            "category": "hot_games"
+        },
+        {
+            "id": 3, 
+            "name": "Zombie war",
+            "image_url":"https://th.bing.com/th/id/OIP.5fWPU4gIvjh4DwLwIFw6igAAAA?rs=1&pid=ImgDetMain", 
+            "category": "hot_games"
+        },
+        {
+            "id": 4, 
+            "name": "Zombie war",
+            "image_url":"https://th.bing.com/th/id/OIP.5fWPU4gIvjh4DwLwIFw6igAAAA?rs=1&pid=ImgDetMain", 
+            "category": "hot_games"
+        },
+        {
+            "id": 5, 
+            "name": "Zombie war",
+            "image_url":"https://th.bing.com/th/id/OIP.5fWPU4gIvjh4DwLwIFw6igAAAA?rs=1&pid=ImgDetMain", 
+            "category": "hot_games"
+        },
+        {
+            "id": 6, 
+            "name": "Zombie war",
+            "image_url":"https://th.bing.com/th/id/OIP.5fWPU4gIvjh4DwLwIFw6igAAAA?rs=1&pid=ImgDetMain", 
+            "category": "hot_games"
+        }
+    ],
+    "popular_games": [
+        {
+            "id": 1, 
+            "name": "",
+            "image_url":"" 
+        }
+    ]
+}

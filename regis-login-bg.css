@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tổng quan loại bỏ margin, padding, thiết lập font và màu nền */
+  body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #c7d5e0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1b2838;
+    color: #c7d5e0;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #66c0f4;
+    color: #1b2838;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #449dd1;
+  }
+
+    .register-wrapper {
+      display: flex;
+      justify-content: center;
+      .form {
+        width: 350px;
+        background: #2a475e;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    }
+        .login-wrapper {
+      display: flex;
+      justify-content: center;
+      .form {
+        width: 350px;
+        background: #2a475e;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    }
+      
+      /* Header chứa logo */
+      header {
+        background-color: #171a21;
+        padding: 20px;
+        text-align: center;
+      }
+      header img {
+        width: 220px;
+        height: auto;
+      }
+      
+      /* Thanh điều hướng */
+      nav {
+        background-color: #2a475e;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+      }
+      nav a {
+        color: #c7d5e0;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      nav a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      
+      /* Nội dung chính */
+      main {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #1b2838;
+        color: #ffffff;
+      }
+      main h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      main p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 1.6;
+      }
+      
+      /* Footer */
+      footer {
+        background-color: #171a21;
+        padding: 20px;
+        font-size: 14px;
+        color: #8899aa;
+      }
+      
+      /* Responsiveness */
+      @media (max-width: 768px) {
+        main h1 {
+          font-size: 32px;
+        }
+        main p {
+          font-size: 16px;
+        }
+        nav a {
+          margin: 0 10px;
+          font-size: 14px;
+        }  
+      }
+
+main.backro {
+  /* padding: 50px 20px;
+  text-align: center;
+  background-image: url("game-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; */
+    width: 100%;
+    padding: 50px 20px;
+    height: 100vh;
+    background-image: url("./img/game-background.png");
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+main.backro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./img/game-background.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: -1;
+}
+.section-title {
+    color: white;
+    font-size: 55px;
+}
+
